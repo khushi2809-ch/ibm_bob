@@ -1,0 +1,20 @@
+DATA QUALITY REPORT
+============================================================
+Dataset: Food Delivery Time Prediction
+Original rows: 50,000
+Final rows:    50,000
+Rows removed:  0
+
+CLEANING LOG:
+------------------------------------------------------------
+Starting cleaning - 50,000 rows x 24 columns
+Step 1 - Duplicate removal: removed 0 duplicate Order_IDs
+Step 2 - No missing values detected
+Step 3 - Type enforcement applied
+Step 4 - Range validation: dropped 0 invalid rows
+Step 5 - Outlier capping (IQR 1.5x fence):
+Step 6 - String columns standardised (strip + title case)
+Step 7 - Date integrity: all dates in valid range
+Step 8 - Is_Weekend: only {0, 1} values - OK
+Step 8 - Is_Festival: only {0, 1} values - OK
+Cleaning complete - 50,000 rows remaining (0 removed, 0.0%)
